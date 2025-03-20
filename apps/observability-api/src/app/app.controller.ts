@@ -10,4 +10,10 @@ export class AppController {
   getData() {
     return this.appService.getData();
   }
+
+  //This functions return an JSON with a message Hello World
+  @Get()
+  helloWorld() {
+    return "Hello World";
+  }
 }
